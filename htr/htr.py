@@ -78,6 +78,7 @@ class HTR(Scene):
         self.draw_path(
             [points[10], points[11], points[12], points[9], points[5]], YELLOW
         )
+        self.draw_path([additional_points[2], points[9]], YELLOW)
         self.wait(1)
 
         self.draw_path([points[0], points[3], points[2]], RED)
