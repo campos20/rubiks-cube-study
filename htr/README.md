@@ -13,9 +13,14 @@ For now, this is not a guide. This is personal study notes shared with people wh
 
 This assumes you are in the `htr` directory and have Python.
 
-```
+```bash
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+
+# Generate the maze as gif
+manim --format gif -ql htr.py HTR
+
+# Generate the maze as video
 manim -ql htr.py HTR
 ```
